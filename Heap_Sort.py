@@ -45,5 +45,3 @@ def heapSort(arr,DrawData,timetick):
         time.sleep(timetick)
 
         heapify(arr, i, 0,DrawData,timetick)
-
-    # Driver code to test above
