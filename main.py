@@ -99,7 +99,7 @@ algmenu.current(0)
 #speed scale like a slider to select speed
 speedScale=Scale(UI_frame,from_=0.1,to=2.0,length=200,digits=2,resolution=0.2,orient=HORIZONTAL,label="Select Speed[s]")
 speedScale.grid(row=0,column=2,padx=5,pady=5)
-Button(UI_frame, text="Start", command=StartAlgorithm, bg='red').grid(row=0,column=2,padx=5, pady=5)
+Button(UI_frame, text="Start", command=StartAlgorithm, bg='red').grid(row=1,column=4,padx=5, pady=5)
 
 #Row[1]
 sizeEntry=Scale(UI_frame,from_=3,to=25,resolution=1,orient=HORIZONTAL,label="Data Size")
